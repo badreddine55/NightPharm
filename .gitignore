@@ -1,0 +1,27 @@
+# Ignore node_modules in both front-end and back-end
+node_modules/
+back-End/node_modules/
+front_end/node_modules/
+
+# Ignore .env files
+back-End/.env
+front_end/.env
+
+# Ignore uploads folder in back-end
+back-End/uploads/
+
+# Ignore build folder in front-end
+front_end/build/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
